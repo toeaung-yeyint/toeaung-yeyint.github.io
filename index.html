@@ -1,73 +1,55 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<meta charset="UTF-8" />
-		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
-		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<link rel="stylesheet" href="./src/index.css" />
-		<script type="module" src="./src/index.js"></script>
-		<title>my-portfolio</title>
-	</head>
-	<body>
-		<div class="introText" style="margin-top: 100px">
-			<h1 class="epicText">HelloWorld!</h1>
-			<p>
-				Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam
-				nostrum dolor maiores quidem, mollitia impedit consectetur repellat
-				eius, dignissimos dicta quam dolorem, nam quae corrupti sint atque
-				laudantium nisi incidunt.
-			</p>
-		</div>
-		<div class="container my-5">
-			<div class="row">
-				<div class="col">
-					<h2>My projects</h2>
-				</div>
-			</div>
-			<div class="row g-5" style="margin-bottom: 100px">
-				<div class="col-sm-12 col-md-6 col-lg-4">
-					<a href="">
-						<div href="#" class="cardAlter col">
-							<div class="cardImageContainer">
-								<img
-									class="cardImage"
-									src="https://images.unsplash.com/photo-1682685795557-976f03aca7b2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2371&q=80"
-									alt=""
-								/>
-							</div>
-							<h3 class="cardTitle">Placeholder</h3>
-						</div>
-					</a>
-				</div>
-				<div class="col-sm-12 col-md-6 col-lg-4">
-					<a href="">
-						<div href="#" class="cardAlter col">
-							<div class="cardImageContainer">
-								<img
-									class="cardImage"
-									src="https://images.unsplash.com/photo-1682685795557-976f03aca7b2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2371&q=80"
-									alt=""
-								/>
-							</div>
-							<h3 class="cardTitle">Placeholder</h3>
-						</div>
-					</a>
-				</div>
-				<div class="col-sm-12 col-md-6 col-lg-4">
-					<a href="">
-						<div href="#" class="cardAlter col">
-							<div class="cardImageContainer">
-								<img
-									class="cardImage"
-									src="https://images.unsplash.com/photo-1682685795557-976f03aca7b2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2371&q=80"
-									alt=""
-								/>
-							</div>
-							<h3 class="cardTitle">Placeholder</h3>
-						</div>
-					</a>
-				</div>
-			</div>
-		</div>
-	</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./src/index.css" />
+    <script type="module" src="./src/index.js"></script>
+    <title>my-portfolio</title>
+  </head>
+  <body>
+    <nav class="nav bg-dark justify-content-between px-4 py-1">
+      <a class="nav-link text-white fs-5" href="#">Home</a>
+      <a class="nav-link text-white justify-content-center fs-5" href="#"
+        >Contact me</a
+      >
+    </nav>
+    <div class="container my-5">
+      <div class="row introSection my-5">
+        <div class="col">
+          <my-name name="Toe Aung Ye Yint"></my-name>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam
+            nostrum dolor maiores quidem, mollitia impedit consectetur repellat
+            eius, dignissimos dicta quam dolorem, nam quae corrupti sint atque
+            laudantium nisi incidunt.
+          </p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col">
+          <h2 class="myProject">My Projects</h2>
+        </div>
+      </div>
+      <div class="row g-5" style="margin-bottom: 100px">
+        <div class="col-sm-12 col-md-6 col-lg-4">
+          <feature-box
+            inputs='{"link":"https://toeaung-yeyint.github.io/teams-titles/dist/index.html","title": "teams-titles", "alt":"the card image of teams titles app", "src": "https://images.unsplash.com/photo-1553778263-73a83bab9b0c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2371&q=80"}'
+          ></feature-box>
+        </div>
+
+        <div class="col-sm-12 col-md-6 col-lg-4">
+          <feature-box
+            inputs='{"link":"https://toeaung-yeyint.github.io/raise-or-drop/dist/index.html", "title": "raise-or-drop", "alt":"the card image of raise or drop app", "src": "https://images.unsplash.com/photo-1601397922721-4326ae07bbc5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2671&q=80"}'
+          ></feature-box>
+        </div>
+        <div class="col-sm-12 col-md-6 col-lg-4">
+          <feature-box
+            inputs='{"title": "", "alt":"", "src": ""}'
+          ></feature-box>
+        </div>
+      </div>
+    </div>
+  </body>
 </html>
