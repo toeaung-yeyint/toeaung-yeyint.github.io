@@ -66,7 +66,7 @@ class FeatureBox extends LitElement {
 		super();
 	}
 	render() {
-		return html` <a target="_blank" href="${this.inputs.link}">
+		return html` <a href="${this.inputs.link}">
 			<div class="featurebox">
 				<div class="featureboxImageContainer">
 					<img
