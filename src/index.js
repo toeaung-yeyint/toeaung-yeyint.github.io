@@ -99,7 +99,7 @@ class MyName extends LitElement {
 			font-family: Roboto Condensed, sans-serif;
 		}
 		.myName {
-			font-size: 40px;
+			font-size: 38px;
 			text-align: center;
 			margin-bottom: 30px;
 		}
