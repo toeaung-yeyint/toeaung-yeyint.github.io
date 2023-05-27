@@ -1,13 +1,13 @@
 @import "../node_modules/bootstrap/dist/css/bootstrap.css";
 
 .container {
-  max-width: 1174px !important;
-  padding: 24px;
+	max-width: 1174px !important;
+	padding: 24px;
 }
 .myProject {
-  text-align: center;
-  margin-bottom: 20px;
-  font-weight: bold;
+	text-align: center;
+	margin-bottom: 20px;
+	font-weight: bold;
 }
 
 h1,
@@ -16,9 +16,24 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: Roboto Condensed, sans-serif;
+	font-family: Roboto Condensed, sans-serif;
 }
 
 p {
-  font-family: Roboto, sans-serif;
+	font-family: Roboto, sans-serif;
+}
+
+.showMore,
+.showLess {
+	color: blue;
+	cursor: pointer;
+}
+
+.showMore:hover,
+.showLess:hover {
+	text-decoration: underline;
+}
+
+.hidden {
+	display: none;
 }
