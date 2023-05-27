@@ -99,7 +99,7 @@ var st,it;class rt extends f{constructor(){super(...arguments),this.renderOption
 			font-family: Roboto Condensed, sans-serif;
 		}
 		.myName {
-			font-size: 54px;
+			font-size: 45px;
 			text-align: center;
 			margin-bottom: 30px;
 		}
@@ -156,4 +156,4 @@ var st,it;class rt extends f{constructor(){super(...arguments),this.renderOption
 			transform: translate(25px, 10px) rotate(10deg);
 		}
 	`;constructor(){super()}render(){const t=document.createElement("h1");t.innerText=`${this.name}`,t.classList.add("myName"),this.renderRoot.append(t);const e=this.renderRoot.querySelector(".myName"),s=this.renderRoot.querySelector(".myName").textContent.split("");e.innerText="",s.forEach((e=>{const s=document.createElement("span");s.classList.add("letter"),s.style.display="inline-block"," "===e?(s.innerText="-",s.style.visibility="hidden"):s.innerText=e,t.append(s)}))}}customElements.define("feature-box",ot),customElements.define("my-name",at);
-//# sourceMappingURL=index.3bd1722b.js.map
+//# sourceMappingURL=index.caa7c968.js.map
