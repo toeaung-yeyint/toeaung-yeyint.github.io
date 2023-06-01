@@ -38,3 +38,9 @@ p {
 .hidden {
 	display: none;
 }
+
+.logo-image {
+	width: auto;
+	height: 30px;
+	margin: 0 10px;
+}

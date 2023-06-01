@@ -190,14 +190,14 @@ customElements.define("feature-box", FeatureBox);
 customElements.define("my-name", MyName);
 
 const showMore = document.querySelector(".showMore");
-const paragraphs = document.querySelectorAll(".paragraphToHide");
+const contents = document.querySelectorAll(".contentToHide");
 showMore.addEventListener("click", () => {
 	if (showMore.textContent === "Show more ...") {
 		showMore.textContent = "Show less";
 	} else {
 		showMore.textContent = "Show more ...";
 	}
-	paragraphs.forEach((paragraph) => {
-		paragraph.classList.toggle("hidden");
+	contents.forEach((content) => {
+		content.classList.toggle("hidden");
 	});
 });
