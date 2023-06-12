@@ -188,16 +188,3 @@ class MyName extends LitElement {
 
 customElements.define("feature-box", FeatureBox);
 customElements.define("my-name", MyName);
-
-const showMore = document.querySelector(".showMore");
-const contents = document.querySelectorAll(".contentToHide");
-showMore.addEventListener("click", () => {
-	if (showMore.textContent === "Show more ...") {
-		showMore.textContent = "Show less";
-	} else {
-		showMore.textContent = "Show more ...";
-	}
-	contents.forEach((content) => {
-		content.classList.toggle("hidden");
-	});
-});
