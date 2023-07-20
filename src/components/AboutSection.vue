@@ -15,9 +15,9 @@
 		<div class="flex items-center mt-10 mb-16 gap-4 flex-wrap">
 			<p class="text-lg italic">Tech stacks:</p>
 			<div class="flex gap-4">
-				<img class="w-8" src="/assets/html_logo.jpg" alt="" />
-				<img class="w-8" src="/assets/css_logo.jpg" alt="" />
-				<img class="w-8" src="/assets/javascript_logo.jpg" alt="" />
+				<img class="w-6" src="/assets/html_logo.jpg" alt="" />
+				<img class="w-6" src="/assets/css_logo.jpg" alt="" />
+				<img class="w-6" src="/assets/javascript_logo.jpg" alt="" />
 			</div>
 		</div>
 	</div>
