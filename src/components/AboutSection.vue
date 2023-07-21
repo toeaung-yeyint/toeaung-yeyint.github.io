@@ -1,6 +1,6 @@
 <template>
-  <div class="flex flex-col gap-x-8 mt-16 mb-20 px-4">
-    <h1 class="text-center text-3xl font-bold mb-10">Toe Aung Ye Yint</h1>
+  <div class="flex flex-col gap-x-8 mt-16 mb-24 px-4">
+    <h1 class="text-center text-4xl font-bold mb-10">Toe Aung Ye Yint</h1>
     <p class="text-base">
       I am a skilled front-end developer with a diverse educational background,
       I hold a Master's degree in Information Technology (Monash University,
