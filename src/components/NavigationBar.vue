@@ -10,9 +10,24 @@
       <a href="https://github.com/toeaung-yeyint"
         ><i class="fa-brands fa-github"></i
       ></a>
-      <i class="fa-solid fa-moon"></i>
+      <i
+        @click="toggleDarkMode"
+        :class="darkModeIcon"
+        class="cursor-pointer"
+      ></i>
     </div>
   </div>
 </template>
 
-<script setup></script>
+<script setup>
+import { ref } from "vue";
+
+const darkModeIcon = ref("fa-solid fa-moon");
+
+const toggleDarkMode = () => {
+  darkModeIcon.value === "fa-solid fa-moon"
+    ? (darkModeIcon.value = "fa-solid fa-sun")
+    : (darkModeIcon.value = "fa-solid fa-moon");
+  document.documentElement.classList.toggle("dark");
+};
+</script>
