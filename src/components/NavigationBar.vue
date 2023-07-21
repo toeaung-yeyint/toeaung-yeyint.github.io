@@ -13,7 +13,7 @@
       <i
         @click="toggleDarkMode"
         :class="darkModeIcon"
-        class="cursor-pointer"
+        class="cursor-pointer w-7"
       ></i>
     </div>
   </div>
