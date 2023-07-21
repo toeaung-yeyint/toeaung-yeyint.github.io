@@ -6,7 +6,7 @@ import ProjectCard from "./components/ProjectCard.vue";
 </script>
 
 <template>
-  <div class="max-w-screen-lg mx-auto mb-16">
+  <div class="max-w-screen-lg mx-auto mb-16 px-4">
     <NavigationBar />
     <AboutSection />
     <MyProjectsSection>

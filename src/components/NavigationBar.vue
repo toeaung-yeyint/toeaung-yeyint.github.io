@@ -1,5 +1,5 @@
 <template>
-  <div class="flex items-center justify-between py-10 px-4">
+  <div class="flex items-center justify-between py-10">
     <a href="https://toeaung-yeyint.github.io/" class="text-2xl font-semibold"
       >Home</a
     >

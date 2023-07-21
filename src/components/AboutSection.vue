@@ -1,5 +1,5 @@
 <template>
-  <div class="flex flex-col gap-x-8 mt-16 mb-24 px-4">
+  <div class="flex flex-col gap-x-8 mt-12 mb-16 md:mt-16 md:mb-24">
     <h1 class="text-center text-4xl font-bold mb-10">Toe Aung Ye Yint</h1>
     <p class="text-base">
       I am a skilled front-end developer with a diverse educational background,
@@ -13,8 +13,8 @@
       field of front-end development.
     </p>
     <div class="flex items-center mt-10 gap-6 flex-wrap">
-      <p class="text-lg italic">Tech stacks:</p>
-      <div class="flex gap-6 flex-wrap">
+      <p class="text-xl italic font-medium">My tech stacks:</p>
+      <div class="flex gap-6 justify-center flex-wrap">
         <img class="h-8" src="/assets/html_logo.png" alt="" />
         <img class="h-8" src="/assets/css_logo.png" alt="" />
         <img class="h-8" src="/assets/scss_logo.png" alt="" />
@@ -24,6 +24,9 @@
         <img class="h-8" src="/assets/typescript_logo.png" alt="" />
         <img class="h-8" src="/assets/vue_logo.png" alt="" />
         <img class="h-8" src="/assets/vite_logo.png" alt="" />
+        <img class="h-8" src="/assets/sql_logo.png" alt="" />
+        <img class="h-8" src="/assets/mongodb_logo.png" alt="" />
+        <img class="h-8" src="/assets/firebase_logo.png" alt="" />
       </div>
     </div>
   </div>
